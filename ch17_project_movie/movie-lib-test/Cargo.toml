@@ -1,0 +1,7 @@
+[package]
+name = "movies_lib_test"
+version = "0.1.0"
+author = ["Jonathan Reynaldo"]
+
+[dependencies]
+movies_lib = { path = "../movie-lib" }
