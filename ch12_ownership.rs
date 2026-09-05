@@ -6,7 +6,8 @@ Memory dialokasikan dalam:
 - Heap
 
 Stack
-A stack follows a last in first out order. Stack stores data values for which the size is known at compile time. For example, a variable of fixed size i32 is a candidate for stack allocation. Its size is known at compile time. All scalar types can be stored in stack as the size is fixed.
+A stack follows a last in first out order. Stack stores data values for which the size is known at compile time. For example, a variable of fixed size i32 is a candidate for stack allocation. Its size is known at compile time. All 
+scalar types can be stored in stack as the size is fixed.
 Consider an example of a string, which is assigned a value at runtime. The exact size of such a string cannot be determined at compile time. So it is not a candidate for stack allocation but for heap allocation.
 
 Heap
