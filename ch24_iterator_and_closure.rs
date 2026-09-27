@@ -47,4 +47,18 @@ fn main() {
         }
     }
     println!("{:?}", names);
+
+    // closure
+    let is_even = |x| {
+        x % 2 == 0
+    };
+
+    let no = 13;
+    println!("{} is even? {}", no, is_even(no));
+
+    let val = 10;
+    let closure2 = |x| {
+        val + x
+    };
+    println!("{}", closure2(val));
 }
